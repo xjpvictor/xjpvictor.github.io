@@ -37,14 +37,14 @@ TEX
 
 It also supports Mathjax with mhchem.
 
-Inline equation \( E = mc^2 \)
+Inline equation \\( E = mc^2 \\)
 
 Or equation block
 
-\[ \lambda = \frac{c}{\nu} \]
+\\[ \lambda = \frac{c}{\nu} \\]
 
 Chemical equations
 
-\[ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} \]
+\\[ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} \\]
 
 
