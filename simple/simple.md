@@ -35,7 +35,7 @@ TEX
 
 It also supports Mathjax with mhchem.
 
-Inline equation $ E = mc^2 $
+Inline equation $$ E = mc^2 $$
 
 Or equation block
 
