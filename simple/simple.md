@@ -15,8 +15,10 @@ Define <span><dfn>terms</dfn> with definition</span>
 
 Insert `inline code` or
 
-    # add a code block
-    print('Hello world');
+```
+# add a code block
+print('Hello world');
+```
 
 Image
 ----
