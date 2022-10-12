@@ -15,7 +15,7 @@ Define <span><dfn>terms</dfn> with definition</span>
 
 Insert `inline code` or
 
-```python
+```
 # add a code block
 print('Hello world');
 ```
