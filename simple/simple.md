@@ -68,7 +68,7 @@ Chemical equations
       fontCache: 'global'
     },
     chtml: {
-      scale: 1.1,
+      scale: 1.0,
       minScale: .5,
       mtextFont: '',
       unknownFamily: 'serif',
