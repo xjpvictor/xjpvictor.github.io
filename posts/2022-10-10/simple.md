@@ -1,5 +1,6 @@
 ---
 title: Simple editor
+date: 2022-10-10
 ...
 
 Simple editor
