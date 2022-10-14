@@ -47,4 +47,41 @@ Chemical equations
 
 \\[ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} \\]
 
-
+<script type="text/javascript" crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  //var polyfillscript = document.createElement('script');
+  //polyfillscript.type = 'text/javascript';
+  //polyfillscript.src = 'https://polyfill.io/v3/polyfill.min.js?features=es6';
+  //polyfillscript.crossOrigin = 'anonymous';
+  //document.body.appendChild(polyfillscript);
+  MathJax = {
+    loader: {
+      load: ['[tex]/autoload']
+    },
+    tex: {
+      packages: {
+        '[+]': ['autoload']
+      },
+      inlineMath: [['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    },
+    chtml: {
+      scale: 1.1,
+      minScale: .5,
+      mtextFont: '',
+      unknownFamily: 'serif',
+      mathmlSpacing: false,
+      exFactor: .5
+    }
+  };
+  //var mathjaxscript = document.createElement('script');
+  //mathjaxscript.type = 'text/javascript';
+  //mathjaxscript.id = 'MathJax-script';
+  //mathjaxscript.async = true;
+  //mathjaxscript.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js';
+  //mathjaxscript.crossOrigin = 'anonymous';
+  //document.body.appendChild(mathjaxscript);
+</script>
+<script type="text/javascript" id="MathJax-script" async crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
