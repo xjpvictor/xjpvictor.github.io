@@ -2,6 +2,9 @@ This is my blog with only some random texts.
 
 I may update randomly or not update at all.
 
-{% for post in site.posts %}
-<h3><a href="{{ post.url }}">post.url</a></h3>
+{% assign files = site.static_files %}
+{% for file in files %}
+  {% if file.extname == ".md" -%}
+<h3><a href="{{ site.baseurl }}{{ file.path }}">file.basename</a></h3>
+  {%- endif %}
 {% endfor %}
