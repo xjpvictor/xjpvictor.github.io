@@ -1,8 +1,6 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: homepage
-description: simple text
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
     # Use GitHub flavored markdown, including triple backtick fenced code blocks
@@ -12,3 +10,5 @@ kramdown:
     syntax_highlighter_opts:
         # Use existing pygments syntax highlighting css
         css_class: 'highlight'
+title: A Blog
+description: some random texts

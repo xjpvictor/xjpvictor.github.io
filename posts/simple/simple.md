@@ -1,5 +1,5 @@
 ---
-title: post
+title: Simple editor
 ...
 
 Simple editor
