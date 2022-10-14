@@ -2,9 +2,7 @@ This is my blog with only some random texts.
 
 I may update randomly or not update at all.
 
-{% assign files = site.static_files %}
-{% for file in files %}
-  {% if file.extname == ".md" -%}
-<h3><a href="{{ site.baseurl }}{{ file.path }}">file.basename</a></h3>
-  {%- endif %}
+{% for page in site.pages %}
+<h3><a href="{{ page.url }}">page.title</a></h3>
+<p><small><strong>{{ page.date | date: "%B %e, %Y" }}</strong></small></p>
 {% endfor %}
