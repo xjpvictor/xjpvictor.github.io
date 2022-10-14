@@ -1,6 +1,5 @@
 ---
 title: Simple editor
-categories: text
 ...
 
 Simple editor
