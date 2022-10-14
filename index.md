@@ -4,5 +4,5 @@ I may update randomly or not update at all.
 
 {% for page in site.html_pages %}
 <p><a href="{{ page.url }}">{{ page.title }}</a><br>
-<small><strong>{{ page.date | date: "%B %e, %Y" }}</strong></small></p>
+<span style="font-size:.8em;font-weight:bold;">{{ page.date | date: "%B %e, %Y" }}</span></p>
 {% endfor %}
