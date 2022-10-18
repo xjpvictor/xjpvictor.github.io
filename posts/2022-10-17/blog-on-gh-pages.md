@@ -17,7 +17,7 @@ In the **Settings**, I navigated to the **Pages** tab and selected the _main_ br
 
 Now the blog has been setup successfully. I simply cloned the repo onto my local laptop and started writing posts.
 
-###Enable syntax highlighting
+### Enable syntax highlighting
 
 In the root folder, I created a `_config.yml` file in the root directory to make necessary configurations and to enable syntax highlighting.
 
@@ -36,7 +36,7 @@ kramdown:
         css_class: 'highlight'
 ```
 
-###Enable Mathjax
+### Enable Mathjax
 
 In order to enable _Mathjax_ support with _mhchem_, I created a `/_includes` directory in my repo, and uploaded a file named as `head-custom.html` with the following code to this directory.
 
@@ -69,7 +69,7 @@ In order to enable _Mathjax_ support with _mhchem_, I created a `/_includes` dir
 <script type="text/javascript" id="MathJax-script" async crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
 ```
 
-###Posts directory
+### Posts directory
 
 Jekyll requires uploading post `.md` files to the `/_posts/` folder and all static files including images to the `/assets/` directory. Therefore, if I want to load an image in the post, I have use `/assets/[path_to_image].jpg` as the url.
 
@@ -81,7 +81,7 @@ It also greatly reduces the hassle in transferring a single post as I could just
 
 With my directory structure, Jekyll will be able to process my posts as `pages` and serve the html using the url `/posts/YYYY-mm-dd/[name_of_md_file].html`.
 
-###List of posts
+### List of posts
 
 As I said, Jekyll would process my posts as `pages`. As a result, I couldn't make a list of `posts` but I have to list `html_pages`. So in my `/index.md`, I put the following contents so that Jekyll will generate a list of `html_pages` as my posts.
 
@@ -97,7 +97,7 @@ Write a post
 
 Now I could start to write a post using my [Simple Editor](https://simple-editor.xyz "Simple Editor").
 
-###YAML Front matter
+### YAML Front matter
 
 I'll add a YAML Front matter so that I could define title and date of post.
 
@@ -113,11 +113,11 @@ At the same time, I would set the file name of the `.md` file so that it would g
 
 I would then continue typing the post. All standard Markdown features would be available either by typing out the syntax or using the buttons above the editing area.
 
-###Image
+### Image
 
 There would be many ways that I could use to add or upload images.
 
-####Remote image
+#### Remote image
 
 I would simply use the Markdown syntax, `![text](url "alt text")` to load an external image. Or I can use the **Image Uploader** to insert the image.
 
@@ -129,7 +129,7 @@ I would simply use the Markdown syntax, `![text](url "alt text")` to load an ext
 </figcaption>
 </figure>
 
-####Upload image
+#### Upload image
 
 Alternatively, I would upload images by drag-and-drop or by clicking on the _Open file_ button.
 
@@ -137,7 +137,7 @@ Images that I uploaded would be saved to the browser's `indexedDB` so that delet
 
 I can even upload files of other types using this uploader, and the file uploaded will be available as a link for my reader to download.
 
-####Unsplash images
+#### Unsplash images
 
 What I love the most about this uploader is the support for Unsplash images.
 
@@ -160,11 +160,11 @@ Photo by <a href="https://unsplash.com/@goumbik" target="_blank" title="Author">
 </figcaption>
 </figure>
 
-####Paste images
+#### Paste images
 
 I could also just paste images in the text box while typing the post. The image would be automatically saved and inserted into the post. So I could just screenshot and paste without saving and then deleting the image file.
 
-###Mathjax
+### Mathjax
 
 It is important for me to be able to type math symbols and equations easily as a chemistry teacher. I could use Mathjax to add inline equations \\( \lambda = \frac{c}{\nu} \\) or equation blocks using `\\( \\)` or `\\[ \\]` as delimiters respectively.
 
@@ -208,11 +208,11 @@ I don't need to save anything because the post is automatically saved in the bro
 
 Once I'm done editing my post, I'll be able to save it to my disk. It would give me a `.zip` file containing the `.md` file with the correct name that I set, and the images and other files that I uploaded.
 
-###Sync
+### Sync
 
 I could also continue my work on another device. All I need to do is to save the post, but not downloading the zip file, and then scan the QR code at the corner of the page to open the [Simple Editor](https://simple-editor.xyz "Simple Editor") on another device. The QR code is basically a url with an identifier that allows the new device to download the saved post.
 
-###Import
+### Import
 
 Or I could save the zip file locally and transfer it to another device using anything such as email / airdrop / whatsapp / dropbox etc. And then I can just open the [Simple Editor](https://simple-editor.xyz "Simple Editor") on that device and import the zip file. All post contents as well as images and files will be there.
 
