@@ -86,10 +86,12 @@ With my directory structure, Jekyll will be able to process my posts as `pages` 
 As I said, Jekyll would process my posts as `pages`. As a result, I couldn't make a list of `posts` but I have to list `html_pages`. So in my `/index.md`, I put the following contents so that Jekyll will generate a list of `html_pages` as my posts.
 
 ```
-\{% for page in site.html_pages %}
-\{\{ page.title }}
-\{\{ page.date | date: "%B %e, %Y" }}
-\{% endfor %}
+{% raw %}
+{% for page in site.html_pages %}
+{{ page.title }}
+{{ page.date | date: "%B %e, %Y" }}
+{% endfor %}
+{% endraw %}
 ```
 
 Write a post
