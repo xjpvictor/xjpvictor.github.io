@@ -6,7 +6,7 @@ date: 2022-10-10
 Simple editor
 ====
 
-This is written in a very [simple text editor](https://vik.im/simple-editor "Simple Editor").
+This is written in a very [simple text editor](https://tools.xjpvictor.info/simple-editor "Simple Editor").
 
 ---
 
