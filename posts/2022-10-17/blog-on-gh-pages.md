@@ -6,7 +6,7 @@ date: 2022-10-17
 Post on GitHub pages
 ====
 
-In this post, I'll describe how I setup a blog on GitHub pages, and use my [Simple Editor](https://simple-editor.xyz "Simple Editor") to write a post and publish it to the blog.
+In this post, I'll describe how I setup a blog on GitHub pages, and use my Simple Editor to write a post and publish it to the blog.
 
 Setup a blog
 ----
@@ -97,7 +97,7 @@ As I said, Jekyll would process my posts as `pages`. As a result, I couldn't mak
 Write a post
 ----
 
-Now I could start to write a post using my [Simple Editor](https://simple-editor.xyz "Simple Editor").
+Now I could start to write a post using my Simple Editor.
 
 ### YAML Front matter
 
@@ -206,17 +206,17 @@ Of course, the preview is smart enough to ignore the YAML front matter.
 Save
 ----
 
-I don't need to save anything because the post is automatically saved in the browser's `indexedDB` as I type. Whenever I launch the browser and navigate to the [Simple Editor](https://simple-editor.xyz "Simple Editor"), the post is here to be edited.
+I don't need to save anything because the post is automatically saved in the browser's `indexedDB` as I type. Whenever I launch the browser and navigate to the Simple Editor, the post is here to be edited.
 
 Once I'm done editing my post, I'll be able to save it to my disk. It would give me a `.zip` file containing the `.md` file with the correct name that I set, and the images and other files that I uploaded.
 
 ### Sync
 
-I could also continue my work on another device. All I need to do is to save the post, but not downloading the zip file, and then scan the QR code at the corner of the page to open the [Simple Editor](https://simple-editor.xyz "Simple Editor") on another device. The QR code is basically a url with an identifier that allows the new device to download the saved post.
+I could also continue my work on another device. All I need to do is to save the post, but not downloading the zip file, and then scan the QR code at the corner of the page to open the Simple Editor on another device. The QR code is basically a url with an identifier that allows the new device to download the saved post.
 
 ### Import
 
-Or I could save the zip file locally and transfer it to another device using anything such as email / airdrop / whatsapp / dropbox etc. And then I can just open the [Simple Editor](https://simple-editor.xyz "Simple Editor") on that device and import the zip file. All post contents as well as images and files will be there.
+Or I could save the zip file locally and transfer it to another device using anything such as email / airdrop / whatsapp / dropbox etc. And then I can just open the Simple Editor on that device and import the zip file. All post contents as well as images and files will be there.
 
 Publish
 ----
